@@ -1,0 +1,65 @@
+[
+    {
+        "productId": 1,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/files/SD_03_T28_5032M_NZ_X_EC_94_1500x.jpg?v=1709619774",
+        "productName": "pure cotton polo t-shirt",
+        "productSize": "XL",
+        "productPrice": 1250
+    },
+    {
+        "productId": 2,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/files/SD_03_T28_2222M_RU_X_EC_94_1500x.jpg?v=1709619773",
+        "productName": "pure cotton brown t-shirt",
+        "productSize": "XL",
+        "productPrice": 1250
+    },
+    {
+        "productId": 3,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/files/SD_03_T28_2087M_P5_X_EC_90_1500x.jpg?v=1705904106",
+        "productName": "pure cotton nebraska t-shirt",
+        "productSize": "XL",
+        "productPrice": 1450
+    },
+    {
+        "productId": 4,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/files/SD_03_T28_4536A_SV_X_EC_90_1500x.jpg?v=1700634846",
+        "productName": "pure cotton striped t-shirt",
+        "productSize": "XL",
+        "productPrice": 1450
+    },
+    {
+        "productId": 5,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/files/SD_03_T28_2157M_Z0_X_EC_90_1500x.jpg?v=1705904126",
+        "productName": "pure cotton graphic t-shirt",
+        "productSize": "XL",
+        "productPrice": 1250
+    },
+    {
+        "productId": 6,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/products/SD_03_T28_5000M_Y0_X_EC_90_1500x.jpg?v=1582509459",
+        "productName": "pure cotton black polo t-shirt",
+        "productSize": "XL",
+        "productPrice": 750
+    },
+    {
+        "productId": 7,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/products/SD_03_T28_3363Q_B0_X_EC_90_1500x.jpg?v=1582680543",
+        "productName": "pure cotton zip neck polo t-shirt",
+        "productSize": "XL",
+        "productPrice": 645
+    },
+    {
+        "productId": 8,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/products/SD_03_T28_5016M_Z0_X_EC_90_1500x.jpg?v=1602043550",
+        "productName": "pure cotton zip textured polo t-shirt",
+        "productSize": "XL",
+        "productPrice": 375
+    },
+    {
+        "productId": 9,
+        "productImage": "https://marksandspencer.com.ph/cdn/shop/products/SD_03_T28_1132M_F3_X_EC_90_1500x.jpg?v=1604631860",
+        "productName": "crew neck dark navy sweatshirt",
+        "productSize": "XL",
+        "productPrice": 525
+    }
+]
