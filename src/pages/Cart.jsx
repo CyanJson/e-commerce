@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { removeToCart } from '../redux/ecommerceSlice';
 import AddedProducts from "../components/AddedProducts";
@@ -6,9 +7,7 @@ const Cart = () => {
     const products = useSelector((state) => state.products);
     const dispatch = useDispatch();
 
-    const deleteToCart = (id) => dispatch(removeToCart(id));
-    
-    console.log(products);
+    const deleteToCart = (id) => dispatch(removeToCart(id)); 
 
     return(
         <div className="container">

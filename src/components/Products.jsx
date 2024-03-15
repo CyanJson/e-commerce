@@ -16,7 +16,8 @@ const Products = ({productImage, productName, productSize, productPrice, addToCa
                 <span>Size: {productSize}</span>
                 <span>{productPrice} PHP</span>
             </div>
-            <button 
+            <button
+                className="addToCartBtn" 
                 onClick={() => {
                     if(!added) addToCart(); 
                     setAdded(true); 
