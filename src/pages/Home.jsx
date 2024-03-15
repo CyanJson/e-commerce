@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addToCart, removeToCart } from "../redux/ecommerceSlice";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../redux/ecommerceSlice";
 
 import Products from "../components/Products";
 

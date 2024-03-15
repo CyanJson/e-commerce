@@ -66,7 +66,6 @@ main{
 .products{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 5px;
 }
 
 .product{
@@ -133,14 +132,13 @@ main{
   box-shadow: none;
 }
 
-.product .removeToCart{
+.product .removeToCart, .placeOrder{
   cursor: pointer;
   padding: 8px;
   margin-bottom: 10px;
   width: 90%;
   border: none;
   border-radius: 5px;
-  background-color: rgb(201, 0, 60);
   color: white;
   text-transform: capitalize;
   transition: .3s;
@@ -148,6 +146,15 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
+}
+
+.product .removeToCart{
+  background-color: rgb(201, 0, 60);
+}
+
+.product .placeOrder{
+  background-color: rgb(0, 50, 92);
 }
 
 .product .removeToCart:hover{
@@ -156,6 +163,16 @@ main{
 
 .product .removeToCart:active{
   background-color: rgb(165, 0, 55);
+  translate: 0 2px;
+  box-shadow: none;
+}
+
+.product .placeOrder:hover{
+  background-color: rgb(0, 92, 165);
+}
+
+.product .placeOrder:active{
+  background-color: rgb(0, 55, 100);
   translate: 0 2px;
   box-shadow: none;
 }
@@ -172,4 +189,9 @@ main{
   padding: 5px 10px;
 }
 
-
+.cart{
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

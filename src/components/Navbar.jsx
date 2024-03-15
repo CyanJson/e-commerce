@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import shoppingcart from '../assets/shopping-cart.svg';
-import home from '../assets/home.svg';
+import shop from '../assets/shop.svg';
 import { useSelector } from 'react-redux';
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
             <h3>E-Commerce</h3>
             <div className='navigations'>
                 <Link className='cart-button' to='/'>
-                    <img src={home} width="30" height="30" alt="shopping-cart" />
+                    <img src={shop} width="30" height="30" alt="shopping-cart" />
                 </Link>
                 <Link className='cart-button' to='/yourCart'>
                     <img src={shoppingcart} width="30" height="30" alt="shopping-cart" />
